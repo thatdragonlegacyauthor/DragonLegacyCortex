@@ -1,0 +1,88 @@
+THIS IS INCOMPLETE
+{
+  "bestiary": [
+    {
+      "id": "BROOD_01",
+      "faction": "Brood of Dragnor",
+      "name": "Dragnor Acolyte",
+      "description": "A wild-eyed fanatic, draped in scorched robes and wielding a crudely forged, saw-toothed blade. They fight with a reckless disregard for their own life.",
+      "rank": 2,
+      "rank_title": "Adept",
+      "traits": [
+        "Fanatical",
+        "Reckless",
+        "Expendable"
+      ],
+      "stress_track": "Physical Stress d6",
+      "standard_dice_pool": "Rank d8 + Fanatical d8",
+      "special_abilities": []
+    },
+    {
+      "id": "BROOD_02",
+      "faction": "Brood of Dragnor",
+      "name": "Cinderclaw Bear",
+      "description": "A great bear, its hide covered in sizzling, runic scars and its claws fused with jagged, superheated obsidian. A living engine of destruction.",
+      "rank": 4,
+      "rank_title": "Elite",
+      "traits": [
+        "Twisted War Beast",
+        "Superheated Claws",
+        "Unstoppable Rage"
+      ],
+      "stress_track": "Physical Stress d10",
+      "standard_dice_pool": "Rank d10 + Unstoppable Rage d8 + Strength d10",
+      "special_abilities": [
+        {
+          "name": "Terrifying Roar",
+          "description": "As an action, the Cinderclaw can force all heroes who can hear it to make a Spirit roll against a Difficulty of 10 or take a `Frightened d8` Mental Stress die."
+        },
+        {
+          "name": "Burning Wounds",
+          "description": "On a successful hit with its Cinder Claws, it can inflict a `Burning Wound d6` Complication in addition to Stress."
+        }
+      ]
+    },
+    {
+      "id": "WILD_01",
+      "faction": "Wildlife",
+      "name": "Gravewood Wolf",
+      "description": "A large, unnaturally intelligent wolf with mottled grey-and-black fur that allows it to blend perfectly into the shadows of Eryndor’s ancient, petrified forests.",
+      "rank": 2,
+      "rank_title": "Adept",
+      "traits": [
+        "Pack Hunter",
+        "Silent Stalker",
+        "Supernatural Senses"
+      ],
+      "stress_track": "Physical Stress d8",
+      "standard_dice_pool": "Rank d8 + Agility d8",
+      "special_abilities": [
+        {
+          "name": "Pack Tactics",
+          "description": "For every other Gravewood Wolf adjacent to its target, this wolf adds a d6 to its attack dice pool."
+        }
+      ]
+    },
+    {
+      "id": "CHAMP_01",
+      "faction": "Champions of Order",
+      "name": "Elysian Zealot",
+      "description": "The rank-and-file soldier of the Champions of Order. Clad in polished steel armor and wielding a spear and shield, the Zealot is a highly disciplined and dangerous opponent.",
+      "rank": 2,
+      "rank_title": "Adept",
+      "traits": [
+        "Disciplined",
+        "Shield Wall",
+        "Unwavering Faith"
+      ],
+      "stress_track": "Physical Stress d8",
+      "standard_dice_pool": "Rank d8 + Disciplined d8",
+      "special_abilities": [
+        {
+          "name": "Shield Wall",
+          "description": "When this Zealot is adjacent to another Champion of Order, add a d6 to its defensive dice pools."
+        }
+      ]
+    }
+  ]
+}
