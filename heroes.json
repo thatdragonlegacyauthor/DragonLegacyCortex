@@ -1,0 +1,103 @@
+THIS IS INCOMPLETE
+{
+  "heroes": [
+    {
+      "id": "HERO_01",
+      "name": "Rya",
+      "title": "The Echoing Soul",
+      "description": "An orphan with a forgotten past and a powerful, chaotic draconic legacy. Her journey is one of trying to harmonize the conflicting chorus of voices within her own soul.",
+      "signature_trait": {
+        "name": "Primal Legacy",
+        "description": "Represents a direct, unfiltered connection to the raw creative and destructive forces that shaped Eryndor. Its core mechanic is Attunement, allowing Rya to spend a Plot Point to channel a Draconic Legacy for a scene."
+      },
+      "paths": [
+        {
+          "legacy": "Fire",
+          "path_name": "Path of the Inferno",
+          "description": "Embraces the chaotic and destructive nature of fire, prioritizing widespread devastation over precision.",
+          "talents": [
+            {
+              "name": "Wildfire",
+              "description": "When you use Barrage, you can create a scene-wide Complication: `Raging Inferno d8`."
+            },
+            {
+              "name": "Consuming Rage",
+              "description": "When an enemy inflicts a Complication or Stress on you, spend a Plot Point to immediately use Strike against them as a free action."
+            },
+            {
+              "name": "Firebreak",
+              "description": "You are immune to Stress or Complications from environmental fire or heat."
+            }
+          ]
+        },
+        {
+          "legacy": "Fire",
+          "path_name": "Path of the Heartfire",
+          "description": "Embraces the internal, purifying, and protective nature of fire, using it with precision and purpose.",
+          "talents": [
+            {
+              "name": "Searing Strike",
+              "description": "When using Strike, you can step down your Effect die by one size to inflict the `Melted Armor d8` Complication in addition to Stress."
+            },
+            {
+              "name": "Cauterize",
+              "description": "Use Bolster to remove a physical Complication (bleeding/poison) from an ally, but apply the lesser `Painful Scars d6` Complication."
+            },
+            {
+              "name": "Inner Flame",
+              "description": "Spend a Plot Point to use Bolster on yourself, removing a single mental Complication like Fear or Doubt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HERO_02",
+      "name": "Selra",
+      "title": "The Shepherd",
+      "description": "A former acolyte whose faith was shattered by the cruelty of the Champions of Order. She now seeks a new purpose for her healing abilities.",
+      "signature_trait": {
+        "name": "Shattered Faith",
+        "description": "Represents a complex relationship with healing power. It is no longer a pure gift, but something fueled by her own life force at a personal cost."
+      },
+      "paths": [
+        {
+          "path_name": "Path of the Martyr",
+          "description": "Focuses on taking the pain of others into herself, healing and protecting allies by taking on their Stress and Complications.",
+          "talents": [
+            {
+              "name": "Vicar of Suffering",
+              "description": "When an adjacent ally takes Stress, you may take that Stress die on yourself as a free action."
+            },
+            {
+              "name": "Shared Burden",
+              "description": "Use Bolster to take an ally's physical Complication onto yourself; the die is stepped down by one size when you do so."
+            },
+            {
+              "name": "Martyr's Resilience",
+              "description": "Spend a Plot Point when you take a Stress die to immediately step it down by one size."
+            }
+          ]
+        },
+        {
+          "path_name": "Path of the Heretic",
+          "description": "Weaponizes an intimate knowledge of the Elysian faith, twisting sacred rites into debilitating curses to dismantle enemies from the inside out.",
+          "talents": [
+            {
+              "name": "Anathema",
+              "description": "Use Debilitate against a follower of the Elysian faith to inflict the `Crisis of Faith d8` Mental Complication."
+            },
+            {
+              "name": "Rite of Castigation",
+              "description": "Spend a Plot Point when using Debilitate to create a `Power Sealed d8` Complication, temporarily shutting down a target's Signature Trait."
+            },
+            {
+              "name": "Expose Falsehood",
+              "description": "When an enemy uses faith or authority to influence others, spend a Plot Point to create a `Revealed Hypocrisy d8` Asset for opposing social rolls."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
