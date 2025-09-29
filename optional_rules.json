@@ -1,0 +1,64 @@
+{
+  "optional_rules": [
+    {
+      "id": "OR_01",
+      "name": "The Settlement System",
+      "description": "Allows players to establish and develop a home base, inspired by the town-building of Breath of Fire and Land Make of Legend of Mana.",
+      "core_mechanics": {
+        "settlement_rank": "Represents the settlement's overall size, security, and influence, starting at Rank 1.",
+        "settlement_traits": [
+          {
+            "name": "Prosperity",
+            "die": "d4",
+            "description": "Represents economic health and resources."
+          },
+          {
+            "name": "Security",
+            "die": "d4",
+            "description": "Represents defenses and the skill of its guards."
+          },
+          {
+            "name": "Community",
+            "die": "d4",
+            "description": "Represents the morale and unity of the settlers."
+          }
+        ],
+        "settlement_turn": "A downtime phase where players can undertake projects like building, recruitment, or community events to improve settlement Traits."
+      }
+    },
+    {
+      "id": "OR_02",
+      "name": "Learning from Masters",
+      "description": "A system for heroes to learn unique abilities by apprenticing themselves to powerful NPCs, inspired by the Masters system in Breath of Fire III.",
+      "core_mechanics": {
+        "finding_a_master": "Players must prove themselves worthy through quests or roleplaying to gain a master's tutelage.",
+        "apprenticeship": "A hero can only be apprenticed to one master at a time.",
+        "newfound_talents": "While apprenticed, a hero gains access to a unique Talent Tree. By spending experience or achieving narrative milestones, they can unlock new Talents (SFX) not available on their core Paths."
+      }
+    },
+    {
+      "id": "OR_03",
+      "name": "Trauma and Scars",
+      "description": "A system for permanent consequences, ensuring struggles leave a lasting mark. Inspired by the life-altering injuries and traumas from Berserk.",
+      "core_mechanics": {
+        "definition": "A Scar is a permanent Trait (typically d8) added to a character's sheet as a result of a significant trauma or sacrifice.",
+        "gaining_a_scar": [
+          "When Taken Out, a player can choose to stay in the fight by converting their maxed-out Stress die into a permanent Scar.",
+          "By making a deal with the GM to automatically succeed on a crucial roll in exchange for a narrative-appropriate Scar.",
+          "As a result of a major narrative event."
+        ],
+        "scar_function": "Most of the time, a Scar functions as a Complication for the GM to use. Once per session, the player can leverage their Scar, adding its die to their own pool by explaining how the trauma is now helping them."
+      }
+    },
+    {
+      "id": "OR_04",
+      "name": "Runeforge Blueprints",
+      "description": "An expansion for the hero Rune's Path of the Guardian, allowing for the discovery and installation of new golem modifications.",
+      "core_mechanics": {
+        "finding_blueprints": "Rare schematics for golem modifications that can be found as treasure, rewards, or on powerful enemies.",
+        "installation": "Requires a suitable workshop, rare materials, and a period of downtime to install a new modification, replacing one in the Core, Arms, or Legs slot.",
+        "function": "Each Blueprint unlocks a new, unique Talent associated with the modification it describes, allowing for long-term customization of Rune's abilities."
+      }
+    }
+  ]
+}
