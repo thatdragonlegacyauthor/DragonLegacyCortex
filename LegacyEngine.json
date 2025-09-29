@@ -1,0 +1,80 @@
+{
+  "game_title": "Dragon Legacy",
+  "core_mechanic": {
+    "name": "The Legacy Engine",
+    "description": "A narrative dice pool system based on Cortex Prime.",
+    "procedure": [
+      "Assemble a dice pool from relevant Traits (Attributes, Skills, Signature Traits, etc.).",
+      "Roll all dice in the pool.",
+      "Choose TWO dice and add them together to create a TOTAL.",
+      "Compare the TOTAL to the Difficulty to determine success.",
+      "Choose ONE remaining die to be the EFFECT die, representing the magnitude of the action."
+    ]
+  },
+  "attributes": [
+    {
+      "name": "Might",
+      "description": "Raw physical power, strength, and endurance."
+    },
+    {
+      "name": "Agility",
+      "description": "Speed, reflexes, coordination, and finesse."
+    },
+    {
+      "name": "Intellect",
+      "description": "Logic, reasoning, memory, and analytical skill."
+    },
+    {
+      "name": "Awareness",
+      "description": "Perception, intuition, and empathy."
+    },
+    {
+      "name": "Spirit",
+      "description": "Willpower, determination, and inner resolve."
+    },
+    {
+      "name": "Influence",
+      "description": "Charisma, persuasion, and force of personality."
+    }
+  ],
+  "narrative_moves": [
+    {
+      "name": "Strike",
+      "description": "Attack a single target directly."
+    },
+    {
+      "name": "Barrage",
+      "description": "Attack multiple targets or a wide area."
+    },
+    {
+      "name": "Maneuver",
+      "description": "Move, reposition, or alter the battlefield."
+    },
+    {
+      "name": "Bolster",
+      "description": "Defend, heal, or empower an ally."
+    },
+    {
+      "name": "Debilitate",
+      "description": "Hinder, trap, or weaken a foe without direct harm."
+    },
+    {
+      "name": "Unleash",
+      "description": "Perform a powerful, scene-altering special ability, often costing a Plot Point."
+    }
+  ],
+  "core_statuses": [
+    {
+      "name": "Asset",
+      "description": "A temporary, helpful trait with a die rating."
+    },
+    {
+      "name": "Complication",
+      "description": "A temporary, harmful trait with a die rating."
+    },
+    {
+      "name": "Stress",
+      "description": "A special Complication representing physical, mental, or supernatural harm. If increased beyond d12, the character is Taken Out."
+    }
+  ]
+}
